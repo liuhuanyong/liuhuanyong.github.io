@@ -1,99 +1,311 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>HOME</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="Semantic-ui/semantic.min.css">
+    <script src="Semantic-ui/semantic.min.js"></script>
 </head>
 <body>
-<!-- Banner -->
-<section id="banner">
-	<div class="inner split">
-		<section>
-			<h2>Welcome to liuhuanyong's personal website</h2>
-		</section>
-	</div>
-</section>
+<div class="ui celled grid">
+  <div class="three wide column"></div>
+  <div class="ten wide column">
+  <div class="four wide column">
 
-<!-- One -->
-<section id="one" class="wrapper">
-	<div class="inner split">
-		<section>
-			<h2>个人简介</h2>
-			<p>刘焕勇，语言学及应用语言学硕士,2017年毕业于北京语言大学。目前就职于中国科学院软件研究所，主要从事信息抽取，知识图谱，情感分析, 社会计算等自然语言处理研发工作。</p>
-		</section>
-		<section>
-			<ul class="intrest list">
-				<h2>兴趣及方向</h2>
-				<li>语言资源构建</li>
-				<li>信息抽取与知识图谱</li>
-				<li>舆情监测与社会计算</li>
-				<li>事件表示与事件追踪</li>
-			</ul>
-		</section>
-	</div>
-</section>
+  <div class="ui card">
+  <div class="image">
+    <img src="./images/pic01.jpg">
+  </div>
+  </div>
+    <div class="description">
+    <p><font size="4">刘焕勇 liuhuanyong<i class="china flag"></i>，语言学硕士，文理工交叉背景，2017年毕业于北京语言大学。目前就职于中国科学院软件研究所，主要从事信息抽取，知识图谱，情感分析, 社会计算等自然语言处理研发工作，研究方向包括：</font></p>
+  <ul class="intrest list">
+    <li><font size="3">语言资源构建</font></li>
+    <li><font size="3">信息抽取与知识图谱</font></li>
+    <li><font size="3">舆情监测与社会计算</font></li>
+    <li><font size="3">事件表示与事件追踪</font></li>
+  </ul>
+    <p><font size="4">邮箱:huanyong@iscas.ac.cn</font></p>
+</div>
+    <h1 class="ui horizontal divider header"><i class="flag icon"></i> github项目列表 </h1>
+    <h4 class="ui horizontal divider header"><i class="project icon"></i> 语言资源构建 </h4>
+<table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/SentimentWordExpansion">SentimentWordExpansion</a></td>
+      <td>情感词扩展</td>
+      <td>SOPMI</td>
+    </tr>
+    <tr>
 
-<!-- Two -->
-<section id="two" class="wrapper style2 alt">
-	<div class="inner">
-		<div class="spotlight">
-			<div class="image">
-				<!--<img src="images/pic01.jpg" alt="" />-->
-			</div>
-			<div class="content">
-				<h3>语言资源建设</h3>
-				<p>擅长进行语言资源的构建,包括领域词库的收集,标注与加工.目前已经形成汉语语义库(近义词词库, 上下位词库, 搭配词库, 句法关联词词库等), 领域词库(领域情感词, 领域实体词, 领域特征词, 领域敏感词)等</p>
-				<ul class="actions">
-					<li><a href="dict_resources.htm" class="button alt">Details</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="spotlight">
-			<div class="image">
-				<!--<img src="images/pic02.jpg" alt="" />-->
-			</div>
-			<div class="content">
-				<h3>语言信息处理</h3>
-				<p></p>
-				<ul class="actions">
-					<li><a href="https://github.com/liuhuanyong" class="button alt">Details</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="spotlight">
-			<div class="image">
-				<!--<img src="images/pic03.jpg" alt="" />-->
-			</div>
-			<div class="content">
-				<h3>自然语言处理应用</h3>
-				<p>致力于运用自然语言处理技术完成特定场景下的语言处理任务, 目前已经完成领域情感分析, 语义监测、自动问答等项目.</p>
-				<ul class="actions">
-					<li><a href="liuhuanyong_resume.htm" class="button alt">Details</a></li>
-				</ul>
-			</div>
-		</div>
-		<ul class="actions special">
-			<li><a href="#" class="button alt">返回页首</a></li>
-		</ul>
-	</div>
-</section>
+      <td><a href="https://github.com/liuhuanyong/BaikeInfoExtraction">BaikeInfoExtraction</a></td>
+      <td>百科信息抽取</td>
+      <td>Urllib,xpath</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/SougouWordCollector">SougouWordCollector</a></td>
+      <td>搜狗词库自动构建</td>
+      <td>Urllib,Scrapy</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/LanguageResources">LanguageResources</a></td>
+      <td>语言资源</td>
+      <td>语言资源库，语义库，常用词典</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/BaikeKnowledgeSchema">BaikeKnowledgeSchema</a></td>
+      <td>百科知识体系构建</td>
+      <td>Urllib,xpath,递归，知识库本体概念</td>
+    </tr>
+
+    </tbody>
+</table>
 
 
-<!-- Footer -->
-<footer id="footer">
-	<div class="copyright">Copyright &copy; 2018. Liuhuanyong</div>
-</footer>
+    <h4 class="ui horizontal divider header"><i class="tag icon"></i> 自然语言处理基本组件 </h4>
+<table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+<tbody>
+   <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">WordSegment</a></td>
+      <td>分词</td>
+      <td>HMM, MAXCUT,Ngram</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">HuanNLP</a></td>
+      <td>自然语言处理组件</td>
+      <td>HMM, maxent, CRF</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">Pinyin2Chinese</a></td>
+      <td>拼音转文字</td>
+      <td>Trie树，HMM, bigram</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">QueryCorrection</a></td>
+      <td>查询纠错</td>
+      <td>edit-distance</td>
+    </tr>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+    </tbody>
+</table>
+
+
+    <h4 class="ui horizontal divider header"><i class="tag icon"></i> 信息抽取 </h4>
+<table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">TextFeatureExtraction</a></td>
+      <td>文本特征提取</td>
+      <td>IG，CHI ，DF，MI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">WordCollocation</a></td>
+      <td>搭配抽取</td>
+      <td>MI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">KeyInfoExtraction</a></td>
+      <td>关键信息提取</td>
+      <td>TFIDF，TextRank</td>
+    </tr>
+  </tbody>
+  </table>
+
+    <h4 class="ui horizontal divider header"><i class="tag icon"></i> 知识图谱构建与事件追踪 </h4>
+  <table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+      <td><a href="https://github.com/liuhuanyong/TextGrapher">TextGrapher</a></td>
+      <td>文本结构化图谱表示</td>
+      <td>EventExtraction，知识表示</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/CausalityEventExtraction">CausalityEventExtraction</a></td>
+      <td>因果事件图谱</td>
+      <td>因果图谱，因果事件抽取</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/LanguageKnowledgeGraph">LanguageKnowledgeGraph</a></td>
+      <td>语言政策知识图谱</td>
+      <td>Neo4j,Echarts,D3js</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/SequentialEventExtration">SequentialEventExtration</a></td>
+      <td>顺承事件图谱</td>
+      <td>动宾短语提取，事件图谱</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/KnowledgeVision">KnowledgeVision</a></td>
+      <td>知识图谱可视化</td>
+      <td>Neo4j,Echarts,D3js</td>
+    </tr>
+      <tr>
+
+      <td><a href="https://github.com/liuhuanyong/EventMonitor">EventMonitor</a></td>
+      <td>特定事件追踪</td>
+      <td>新闻采集，事件监测架构，scrapy</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <h4 class="ui horizontal divider header"><i class="tag icon"></i> 深度学习与语义表示 </h4>
+  <table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/DeepLearningInaction">DeepLearningInaction</a></td>
+      <td>深度学习练习</td>
+      <td>Keras, Tensorflow</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/Seq2SeqTranslation">Seq2SeqTranslation</a></td>
+      <td>端到端的翻译模型</td>
+      <td>keras, lstm</td>
+    </tr>
+
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/Word2Vector">Word2Vector</a></td>
+      <td>词向量表示</td>
+      <td>CBOW, SKIP-GRAM，Co-Matrix</td>
+    </tr>
+   <tr>
+      <td><a href="https://github.com/liuhuanyong/Word2Vector">Sentence2Vector</a></td>
+      <td>句子向量表示</td>
+      <td>CBOW</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/CausalityBiLSTM-NER">BiLSTM-NER</a></td>
+      <td>基于BI-LSTM的命名实体识别</td>
+      <td>keras, bi-lstm</td>
+    </tr>
+</tbody>
+</table>
+
+    <h4 class="ui horizontal divider header"><i class="tag icon"></i> 舆情信息采集 </h4>
+<table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/WeiboIndexSpyder">WeiboIndexSpyder</a></td>
+      <td>微博指数采集</td>
+      <td>selenium,xpath</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/BaiduIndexSpyder">BaiduIndexSpyder</a></td>
+      <td>百度指数采集</td>
+      <td>xpath,selenium</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/AliIndexSpyder">AliIndexSpyder</a></td>
+      <td>阿里指数采集</td>
+      <td>selenium,xpath</td>
+    </tr>
+    </tbody>
+</table>
+
+
+    <h4 class="ui horizontal divider header"><i class="tag icon"></i>　自然语言处理应用 </h4>
+<table class="ui three column table">
+  <thead>
+    <tr>
+      <th>项目名称</th>
+      <th>中文名称</th>
+      <th>项目技术点</th>
+    </tr>
+  </thead>
+<tbody>
+   <tr>
+      <td><a href="https://github.com/liuhuanyong/DocSentimentAnalysis">DocSentimentAnalysis</a></td>
+      <td>基于句法依存的情感分析</td>
+      <td>Template, Dependencyparser</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/LearningBasedSentiment">LearningBasedSentiment</a></td>
+      <td>基于深度学习的情感分析</td>
+      <td>CNN,RNN,ML</td>
+    </tr>
+
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/ImportantEventExtractor">ImportantEventExtractor</a></td>
+      <td>文本重要性计算</td>
+      <td>textrank</td>
+    </tr>
+
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/SentenceSimilarity">SentenceSimilarity</a></td>
+      <td>相似度计算</td>
+      <td>distance, hash, haiming ,eidtdistance</td>
+    </tr>
+
+    <tr>
+      <td><a href="https://github.com/liuhuanyong/TopicCluster">TopicCluster</a></td>
+      <td>话题聚类</td>
+      <td>LDA，Kmeans</td>
+    </tr>
+    <tr>
+
+      <td><a href="https://github.com/liuhuanyong/LanguagePlatform">LanguagePlatform</a></td>
+      <td>集成自然语言处理技术的语言平台</td>
+      <td>Neo4j,Echarts,Django</td>
+    </tr>
+
+    </tbody>
+</table>
+
+
+  </div>
+  <div class="three wide column"></div>
+</div>
+
 
 </body>
 </html>
