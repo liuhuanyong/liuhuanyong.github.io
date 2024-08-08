@@ -6,6 +6,6 @@ https://liuhuanyong.github.io
 
 # contact
 1、我的github项目介绍：https://liuhuanyong.github.io          
-3、我的技术公众号:老刘说NLP,扫码一键关注：    
-![image](https://github.com/liuhuanyong/QABasedOnMedicalKnowledgeGraph/blob/master/img/wechat.jpg)
+3、我的技术公众号及技术社区:老刘说NLP，欢迎加入会员:  
+![image](https://github.com/liuhuanyong/liuhuanyong.github.io/blob/master/images/mylaoliu.png)
 
